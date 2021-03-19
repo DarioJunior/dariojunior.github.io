@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(62, 10, 88);
+  background: linear-gradient(
+    83deg,
+    rgba(62, 10, 88, 1) 0%,
+    rgba(45, 7, 64, 1) 18%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+#home-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/home_bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#navbar {
+  height: 7vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navContent {
+  margin: auto;
+  width: 1440px;
+  height: 100%;
+  /* border: 1px solid red; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo {
+  color: azure;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.navLinks {
+  text-align: center;
+  margin-right: 1rem;
+
+  display: flex;
+}
+
+.navLinks span {
+  margin-right: 1rem;
+}
+
+.navLinks p {
+  color: azure;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.navLinks a {
+  text-decoration: none;
+}
+
+.navLinks i:hover {
+  box-sizing: border-box;
+  transition-duration: 500ms;
+  font-size: 2.2rem;
+}
+
+.icon {
+  color: azure;
+}
+
+.photoMini {
+  border: 2px solid white;
+  width: 45px;
+  border-radius: 100%;
+}
+
+#mainContent {
+  font-family: 'Fira Code', monospace;
+  width: 49vw;
+  height: 93vh;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  float: right;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-left: 3rem;
+}
+
+.mainParagraph {
+  font-weight: 900;
+  font-size: 4rem;
+  color: white;
+}
+
+.homeAbout {
+  margin-top: 30px;
+  width: 75%;
+  color: white;
+  font-size: 2rem;
+}
