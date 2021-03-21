@@ -5,21 +5,18 @@
 }
 
 body {
-  background: rgb(62, 10, 88);
+  background: rgb(2, 0, 36);
   background: linear-gradient(
-    83deg,
-    rgba(62, 10, 88, 1) 0%,
-    rgba(45, 7, 64, 1) 18%,
-    rgba(0, 0, 0, 1) 100%
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 21, 94, 1) 100%
   );
 }
 
 #home-container {
   width: 100vw;
   height: 100vh;
-  background-image: url('../images/home_bg2.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url('./images/home_bg.jpg');
 }
 
 #navbar {
@@ -29,7 +26,7 @@ body {
 
 .navContent {
   margin: auto;
-  width: 1440px;
+  max-width: 1440px;
   height: 100%;
   /* border: 1px solid red; */
 
@@ -83,30 +80,18 @@ body {
 }
 
 #mainContent {
-  font-family: 'Fira Code', monospace;
-  width: 49vw;
+  width: 50vw;
   height: 93vh;
-
-  background-color: rgba(0, 0, 0, 0.5);
-  float: right;
-
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-
-  padding-left: 3rem;
+  /* background-color: red; */
 }
 
-.mainParagraph {
-  font-weight: 900;
-  font-size: 4rem;
-  color: white;
-}
-
-.homeAbout {
-  margin-top: 30px;
-  width: 75%;
-  color: white;
-  font-size: 2rem;
+.leftSide {
+  width: 50vw;
+  height: 93vh;
+  /* background-color: yellow; */
+  background-image: url('../images/computer_bg.png');
+  background-repeat: no-repeat;
+  background-position-x: 20%;
+  background-position-y: 100%;
+  position: relative;
 }

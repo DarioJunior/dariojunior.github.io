@@ -1,0 +1,38 @@
+.jsIcon {
+  width: 65px;
+  height: 87px;
+  background-image: url('../images/languages/js_box.png');
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+
+.cssIcon {
+  width: 65px;
+  height: 87px;
+  background-image: url('../images/languages/css_box.png');
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+
+.htmlIcon {
+  width: 65px;
+  height: 87px;
+  background-image: url('../images/languages/html_box.png');
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  position: absolute;
+  top: 300px;
+  left: 340px;
+}
