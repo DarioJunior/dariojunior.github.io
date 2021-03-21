@@ -1,0 +1,14 @@
+@keyframes nextPage {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 45px;
+  }
+}
+
+.nextPage {
+  animation-name: nextPage;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
