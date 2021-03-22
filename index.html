@@ -57,42 +57,60 @@
         </div>
       </div>
     </header>
+    <div >
+      <img id="easterEgg" class="dispNone"src="./images/xablau_meme.png" alt="">
+    </div>
     <main>
       <div id="mainContent">
         <div class="leftSide">
-          <!-- <img src="./images/computer_bg.png" alt=""> -->
-         <div class="jsIcon">
-          <img src="./images/languages/js_letters.png" alt="">
-         </div>
-         <div class="cssIcon">
-          <img src="./images/languages/css_letters.png" alt="">
-         </div>
-         <div class="htmlIcon">
-          <img src="./images/languages/html_letters.png" alt="">
-         </div>
-         <div class="nodeIcon">
-          <img src="./images/languages/node_letters.png" alt="">
-         </div>
-         <div class="sqlIcon">
-          <img src="./images/languages/sql_letters.png" alt="">
-         </div>
-         <div class="reactIcon">
-          <img src="./images/languages/react_letters.png" alt="">
-         </div>
-        </div>      
+          <div class="absoluteForTablet">
+          <div class="jsIcon">
+            <img class="desktopLetters"src="./images/languages/js_letters.png" alt="">
+            <img class="tabletLetters" src="./images/languages/js_letters_tablet.png" alt="">
+          </div>
+          <div class="cssIcon">
+            <img class="desktopLetters"src="./images/languages/css_letters.png" alt="">
+            <img class="tabletLetters" src="./images/languages/css_letters_tablet.png" alt="">
+          </div>
+          <div class="htmlIcon">
+            <img class="desktopLetters"src="./images/languages/html_letters.png" alt="">
+            <img class="tabletLetters" src="./images/languages/html_letters_tablet.png" alt="">
+          </div>
+          <div class="nodeIcon">
+            <img class="desktopLetters"src="./images/languages/node_letters.png" alt="">
+            <img class="tabletLetters" src="./images/languages/node_letters_tablet.png" alt="">
+          </div>
+          <div class="sqlIcon">
+            <img class="desktopLetters"src="./images/languages/sql_letters.png" alt="">
+            <img class="tabletLetters" src="./images/languages/sql_letters_tablet.png" alt="">
+          </div>
+          <div class="reactIcon">
+            <img class="desktopLetters"src="./images/languages/react_letters.png" alt="">
+            <img class="tabletLetters" src="./images/languages/react_letters_tablet.png" alt="">
+          </div>
+          </div>      
+        </div>
         <div class="rightSide">
           <div class="firstParagraph">
             <p>&lt; Hello World /&gt;</p>
           </div>
           <div class="secondParagraph">
-            <p>Me chamo Dário Junior, e sou desenvolvedor front-end no início de uma carreira promissória :D</p>
+            <p>Me chamo Dário Junior, e sou desenvolvedor front-end no início de uma carreira promissória :D
+            </p>
+            <div class="tabletFormat">
+              <p class="tabletParagraph">
+                Conheça alguns de meus projetos:
+              </p>
+            </div>
           </div>
         </div>
-        <div class="nextPage">
+        <div class="nextPage" onclick="xablau()">
+          <p>Next</p>
           <i class="fas fa-angle-double-down fa-2x"></i>
         </div>
       </div>
     </main>
   </div>
+  <script src="./scripts/scripts.js"></script>
 </body>
 </html>

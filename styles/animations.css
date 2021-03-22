@@ -7,9 +7,11 @@
   }
 }
 
-.nextPage {
-  animation-name: nextPage;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+@keyframes showXablau {
+  0% {
+    bottom: -700px;
+  }
+  100% {
+    bottom: -100px;
+  }
 }
