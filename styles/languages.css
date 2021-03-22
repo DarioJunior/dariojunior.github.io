@@ -14,11 +14,15 @@
     position: absolute;
     top: 200px;
     left: 240px;
+
+    animation-name: languageIcons;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
   }
 
   .jsIcon:hover {
-    top: 190px;
-    left: 235px;
+    /* top: 190px;
+    left: 235px; */
     transition: 1s;
     cursor: pointer;
   }
@@ -34,11 +38,15 @@
     position: absolute;
     top: 300px;
     left: 340px;
+
+    animation-name: languageIcons;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
 
   .cssIcon:hover {
-    top: 290px;
-    left: 335px;
+    /* top: 290px;
+    left: 335px; */
     transition: 1s;
     cursor: pointer;
   }
@@ -54,11 +62,15 @@
     position: absolute;
     top: 200px;
     left: 380px;
+
+    animation-name: languageIcons;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
 
   .htmlIcon:hover {
-    top: 185px;
-    left: 370px;
+    /* top: 185px;
+    left: 370px; */
     transition: 1s;
     cursor: pointer;
   }
@@ -75,11 +87,15 @@
     position: absolute;
     top: 270px;
     left: 510px;
+
+    animation-name: languageIcons2;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
   }
 
   .nodeIcon:hover {
-    top: 255px;
-    left: 500px;
+    /* top: 255px;
+    left: 500px; */
     transition: 1s;
     cursor: pointer;
   }
@@ -95,6 +111,10 @@
     position: absolute;
     top: 380px;
     left: 465px;
+
+    animation-name: languageIcons2;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
   }
 
   .sqlIcon:hover {
@@ -116,6 +136,10 @@
     position: absolute;
     top: 450px;
     left: 595px;
+
+    animation-name: languageIcons2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
   }
 
   .reactIcon:hover {

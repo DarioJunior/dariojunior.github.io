@@ -7,6 +7,52 @@
   }
 }
 
+@keyframes languageIcons {
+  0% {
+    top: 200px;
+    left: 240px;
+  }
+  25% {
+    top: 200px;
+    left: 400px;
+  }
+  50% {
+    top: 300px;
+    left: 400px;
+  }
+  75% {
+    top: 330px;
+    left: 240;
+  }
+  100% {
+    top: 200px;
+    left: 240px;
+  }
+}
+
+@keyframes languageIcons2 {
+  0% {
+    top: 200px;
+    left: 510px;
+  }
+  25% {
+    top: 200px;
+    left: 650px;
+  }
+  50% {
+    top: 330px;
+    left: 610px;
+  }
+  75% {
+    top: 300px;
+    left: 510px;
+  }
+  100% {
+    top: 200px;
+    left: 510px;
+  }
+}
+
 @keyframes showXablau {
   0% {
     bottom: -700px;

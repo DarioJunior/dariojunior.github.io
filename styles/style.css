@@ -113,14 +113,15 @@ body {
 
 @media screen and (max-width: 1940px) {
   .rightSide {
-    width: 40vw;
+    /* border: 2px solid red; */
+    width: 45vw;
     height: 93vh;
     margin-right: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: beige;
     position: relative;
   }
@@ -136,6 +137,7 @@ body {
   }
 
   .firstParagraph {
+    font-size: 3rem;
     padding-bottom: 100px;
   }
 
@@ -191,17 +193,34 @@ body {
     padding-bottom: 50px;
   }
   .secondParagraph {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100vw;
     padding: 50px;
     text-align: center;
   }
 
   .tabletParagraph {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: block;
-    color: red;
+    color: white;
     /* width: 100%; */
-    margin-top: 100px;
+    margin-top: 80px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .tabletFormat {
+    display: none;
+  }
+
+  .leftSide {
+    display: none;
+  }
+
+  .rightSide {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
 }

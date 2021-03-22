@@ -7,5 +7,5 @@ const xablau = () => {
   easterEgg.classList.add('dispBlock');
   setTimeout(() => {
     window.confirm("Ficou legal pessoal? (Sim ou Não)")
-  }, 2500)
+  }, 2300)
 }
