@@ -21,14 +21,6 @@ body {
   display: none;
 }
 /* APAGAR */
-.dispBlock {
-  display: block;
-  position: absolute;
-  bottom: -100px;
-  transition: 3s;
-  animation-name: showXablau;
-  animation-duration: 2s;
-}
 
 #home-container {
   width: 100vw;
@@ -111,7 +103,7 @@ body {
   animation-direction: alternate;
 }
 
-@media screen and (max-width: 1940px) {
+@media screen and (max-width: 3000px) {
   .rightSide {
     /* border: 2px solid red; */
     width: 45vw;
@@ -163,7 +155,6 @@ body {
     display: flex;
     width: 100vw;
     height: 45vh;
-    /* background-color: red; */
     background-image: url('../images/computer_bg.png');
     background-repeat: no-repeat;
     background-size: 30vh;
