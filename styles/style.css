@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fira Code', monospace;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,12 +16,6 @@ body {
     rgba(49, 21, 94, 1) 100%
   );
 }
-
-/* APAGAR */
-.dispNone {
-  display: none;
-}
-/* APAGAR */
 
 #home-container {
   width: 100vw;
@@ -103,6 +98,60 @@ body {
   animation-direction: alternate;
 }
 
+.nextPage a {
+  color: white;
+  text-decoration: none;
+}
+
+#about {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.myPhoto {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myPhoto img {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+}
+
+.myPhoto p {
+  font-size: 0.7rem;
+  width: 400px;
+}
+
+.aboutMe {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.aboutMe h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.aboutMe p {
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2rem;
+}
+
 @media screen and (max-width: 3000px) {
   .rightSide {
     /* border: 2px solid red; */
@@ -121,13 +170,27 @@ body {
   .leftSide {
     width: 65vw;
     height: 93vh;
-    background-image: url('../images/computer_bg.png');
-    background-repeat: no-repeat;
-    background-position-x: 20%;
-    background-position-y: 100%;
-    position: relative;
   }
 
+  .leftSide .computer {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .leftSide .book img {
+    width: 130px;
+    position: absolute;
+    bottom: 180px;
+    left: 220px;
+  }
+
+  .leftSide .book img:hover {
+    width: 150px;
+    position: absolute;
+    bottom: 170px;
+    left: 210px;
+    transition: 1s;
+  }
   .firstParagraph {
     font-size: 3rem;
     padding-bottom: 100px;
@@ -144,6 +207,24 @@ body {
   .tabletFormat {
     display: none;
   }
+
+  .goToTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 65px;
+    height: 65px;
+    background-color: black;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .goToTop a {
+    text-decoration: none;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -155,18 +236,12 @@ body {
     display: flex;
     width: 100vw;
     height: 45vh;
-    background-image: url('../images/computer_bg.png');
-    background-repeat: no-repeat;
-    background-size: 30vh;
-    background-position-x: 20%;
-    background-position-y: 100%;
-    position: absolute;
-    bottom: 0;
   }
 
   .absoluteForTablet {
     display: relative;
   }
+
   .rightSide {
     width: 100vw;
     height: 93vh;
