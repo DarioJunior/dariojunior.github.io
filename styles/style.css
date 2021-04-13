@@ -223,8 +223,11 @@ body {
   }
 
   .goToTop a {
+    color: white;
     text-decoration: none;
   }
+  .goToTop a:visited {
+    color: white;
 }
 
 @media screen and (max-width: 1024px) {
