@@ -163,6 +163,7 @@ body {
 }
 
 #gallery .project {
+  border: 1px solid black;
   margin-left: 10px;
   width: 120px;
   height: 120px;
@@ -170,6 +171,7 @@ body {
 }
 
 #gallery .project img {
+  border: 1px solid black;
   width: 120px;
   height: 120px;
 }
@@ -188,7 +190,7 @@ body {
 #modalContent .primaryProject img {
   width: 65%;
   /* height: 100%; */
-  border-radius: 40px;
+  /* border-radius: 40px; */
 }
 
 .nextPage a {
