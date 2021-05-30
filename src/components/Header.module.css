@@ -1,0 +1,20 @@
+.container {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 8vh;
+
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 2px solid #A66BFF;
+  box-shadow: 0px 8px 8px 1px #300079 ;
+}
+
+.logo {
+  color: white;
+  font-family: 'Fira Code Retina';
+  font-size: 2.5rem;
+  font-weight: 700;
+}

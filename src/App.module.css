@@ -1,0 +1,9 @@
+.App {
+  width: 1440px;
+  background-color: rgb(24, 24, 24);
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
