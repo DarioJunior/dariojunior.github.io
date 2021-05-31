@@ -1,8 +1,8 @@
 {
   "name": "portifolio-dariojr",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://dariojunior.github.io/profile",
+  "private": false,
+  "homepage": "http://dariojunior.github.io",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -10,8 +10,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
