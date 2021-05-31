@@ -8,11 +8,11 @@ export default class ProjectsGallery extends React.Component {
   render() {
     return (
       <div id="PROJECTS" className={styles.container}>
-        {/* <a target="_blank" href={DevFinance}> */}
+        <a target="_blank" href='https://github.com/DarioJunior/dev-finance-app'>
           <div>
             <img src={Project1} alt="Dev Finance"/>
           </div>
-        {/* </a> */}
+        </a>
         {/* <div>
           Podcastr
         </div>
