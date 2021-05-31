@@ -1,5 +1,6 @@
 import React from 'react';
 import Project1 from './Dev_Finance.png';
+import DevFinance from '../devfinance/index.html';
 
 import styles from './ProjectsGallery.module.css';
 
@@ -8,12 +9,12 @@ export default class ProjectsGallery extends React.Component {
     return (
       <div id="PROJECTS" className={styles.container}>
         {/* <a href="#HOME">home</a> */}
-        <a target="_blank" href="https://dariojunior.github.io/devfinance">
+        <a target="_blank" href={DevFinance}>
           <div>
             <img src={Project1} alt="Dev Finance"/>
           </div>
         </a>
-        <div>
+        {/* <div>
           Podcastr
         </div>
         <div>
@@ -33,7 +34,7 @@ export default class ProjectsGallery extends React.Component {
         </div>
         <div>
           X
-        </div>
+        </div> */}
       </div>
     )
   }
