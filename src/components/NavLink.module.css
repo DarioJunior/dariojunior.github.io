@@ -1,0 +1,12 @@
+.container {
+  color: white;
+
+}
+
+a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  letter-spacing: 5px;
+}
