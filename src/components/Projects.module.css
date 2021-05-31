@@ -1,5 +1,35 @@
 .container {
-  width: 100%;
-  height: 40vh;
-  background-color: tomato;
+  width: 1440px;
+  height: 30vh;
+  /* background-color: tomato; */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.container div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 200px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 10%;
+  color: aliceblue;
+}
+
+.container div:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: .5s;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
 }
