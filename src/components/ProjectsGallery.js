@@ -8,7 +8,6 @@ export default class ProjectsGallery extends React.Component {
   render() {
     return (
       <div id="PROJECTS" className={styles.container}>
-        {/* <a href="#HOME">home</a> */}
         {/* <a target="_blank" href={DevFinance}> */}
           <div>
             <img src={Project1} alt="Dev Finance"/>
