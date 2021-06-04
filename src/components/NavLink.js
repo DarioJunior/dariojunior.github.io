@@ -8,8 +8,8 @@ export default class NavLink extends React.Component {
         <a href="#">
           Home
         </a>
-        <a href="#PROJECTS">
-          Projects
+        <a href="#PORTFOLIO">
+          Portfolio
         </a>
         <a href="#CONTACT">
           Contact
