@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d83aa4a7.chunk.css",
-    "main.js": "/static/js/main.7c97cb04.chunk.js",
-    "main.js.map": "/static/js/main.7c97cb04.chunk.js.map",
+    "main.css": "/static/css/main.111f1e5b.chunk.css",
+    "main.js": "/static/js/main.cd2247d5.chunk.js",
+    "main.js.map": "/static/js/main.cd2247d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ac7f3d24.js",
     "runtime-main.js.map": "/static/js/runtime-main.ac7f3d24.js.map",
     "static/js/2.a2a76898.chunk.js": "/static/js/2.a2a76898.chunk.js",
     "static/js/2.a2a76898.chunk.js.map": "/static/js/2.a2a76898.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d83aa4a7.chunk.css.map": "/static/css/main.d83aa4a7.chunk.css.map",
+    "static/css/main.111f1e5b.chunk.css.map": "/static/css/main.111f1e5b.chunk.css.map",
     "static/js/2.a2a76898.chunk.js.LICENSE.txt": "/static/js/2.a2a76898.chunk.js.LICENSE.txt",
-    "static/media/Dev_Finance.b008eaeb.png": "/static/media/Dev_Finance.b008eaeb.png"
+    "static/media/Dev_Finance_App_Gif.e8b296a9.gif": "/static/media/Dev_Finance_App_Gif.e8b296a9.gif",
+    "static/media/Podcastr_App_Gif2.3ed810ab.gif": "/static/media/Podcastr_App_Gif2.3ed810ab.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.ac7f3d24.js",
     "static/js/2.a2a76898.chunk.js",
-    "static/css/main.d83aa4a7.chunk.css",
-    "static/js/main.7c97cb04.chunk.js"
+    "static/css/main.111f1e5b.chunk.css",
+    "static/js/main.cd2247d5.chunk.js"
   ]
 }
