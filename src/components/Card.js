@@ -9,7 +9,7 @@ export default class Card extends React.Component {
   render() {
     const { image, url } = this.props;
     return(
-      <div className={"carousel-item"} id={styles.container}>
+      <div id={styles.container}>
         <div className={"row"} id={styles.row}>
               <div className="card" >
                 <div className="card-image" id={styles.cartTitle}>
@@ -17,7 +17,9 @@ export default class Card extends React.Component {
                   <span classNames="card-title" >Dev Finance - Rocketseat</span>
                 </div>
                 <div className="card-content" id={styles.contentContainer}>
-                  <p>Projeto realizado em conjunto, durante a Maratona Discover, utilizando HTML, CSS e Javascript vanilla.</p>
+                  <p>
+                    Projeto realizado em conjunto, durante a Maratona Discover, utilizando HTML, CSS e Javascript Vanilla.
+                  </p>
                 </div>
                 <div className="card-action" id={styles.linkContainer}>
                   <a href={url}>Acesse o repositório</a>
