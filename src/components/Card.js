@@ -7,18 +7,18 @@ export default class Card extends React.Component {
     super()
   }
   render() {
-    const { image, url } = this.props;
+    const { image, url, title, desc } = this.props;
     return(
       <div id={styles.container}>
         <div className={"row"} id={styles.row}>
               <div className="card" >
                 <div className="card-image" id={styles.cartTitle}>
-                  <img src={image} alt="ESTE EH O CARD" id={styles.row}/>
-                  <span classNames="card-title" >Dev Finance - Rocketseat</span>
+                  <img src={image} alt="Projeto" id={styles.row}/>
+                  <span classNames="card-title" >{title}</span>
                 </div>
                 <div className="card-content" id={styles.contentContainer}>
                   <p>
-                    Projeto realizado em conjunto, durante a Maratona Discover, utilizando HTML, CSS e Javascript Vanilla.
+                    {desc}
                   </p>
                 </div>
                 <div className="card-action" id={styles.linkContainer}>

@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './Slider.module.css';
 import Card from './Card';
-import DevFinanceImage from './Dev_Finance.png';
+
+import DevFinanceImage from './Dev_Finance_App_Gif.gif';
+import PodcastrImage from './Podcastr_App_Gif2.gif'
 
 
 export default class Slider extends React.Component {
@@ -16,13 +18,28 @@ export default class Slider extends React.Component {
     return (
       <div className="carousel" id={styles.Carousel}>
         <div className={"carousel-item"} id={styles.item1} >
-          <Card image={DevFinanceImage} url={"https://github.com/DarioJunior/dev-finance-app"}/>
+          <Card 
+            image={PodcastrImage}
+            url={"https://github.com/DarioJunior/nlw-5-podcastr"}
+            title="Podcastr"
+            desc={"Projeto realizando na Next Level Week#5 no qual é criado um aplicativo de podcast, foram utilizados HTML, SASS, Typescript, NextJS com GetStaticProps, ContextAPI, Static Site Generation com revalidação automática a cada 24h caso não haja requisição e também para evitar uma possível sobrecarga de requisições tendo em vista que o conteúdo acessado será atualizado em grandes intervalos de tempos."}
+            />
         </div>
-        <div className={"carousel-item"} id={styles.item2} >
-          <Card image={DevFinanceImage} url={"https://github.com/DarioJunior/dev-finance-app"}/>
+        <div className={"carousel-item"} id={styles.item1} >
+          <Card 
+            image={DevFinanceImage} 
+            url={"https://github.com/DarioJunior/dev-finance-app"} 
+            title="Dev Finance"
+            desc={"Projeto realizado em conjunto, durante a Maratona Discover, utilizando HTML, CSS e Javascript Vanilla"}
+          />
         </div>
-        <div className={"carousel-item"} id={styles.item3} >
-          <Card image={DevFinanceImage} url={"https://github.com/DarioJunior/dev-finance-app"}/>
+        <div className={"carousel-item"} id={styles.item1} >
+          <Card
+            image={"Projeto 3"}
+            url={"#"}
+            title=""
+            desc={""}
+          />
         </div>
       </div>
     )
