@@ -1,7 +1,7 @@
 {
   "name": "portifolio-dariojr",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "http://dariojunior.github.io/",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
