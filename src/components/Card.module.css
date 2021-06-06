@@ -4,18 +4,17 @@
   background-color: violet;
 
   display: flex;
-  
-  /* position: absolute; */
+
 }
 
 #row {
   margin-top: -200px;
-  width: 700px;
+  width: 900px;
   height: 500px;
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(14, 14, 14);
 }
 
-#cartTitle {
+#cardTitle {
   background-color: rgb(10, 10, 10);
   color: white;
   text-align: center;

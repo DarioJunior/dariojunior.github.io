@@ -5,7 +5,7 @@ export default class NavLink extends React.Component {
   render() {
     return (
       <div className={styles.container}>
-        <a href="#">
+        <a href="#HOME">
           Home
         </a>
         <a href="#PORTFOLIO">

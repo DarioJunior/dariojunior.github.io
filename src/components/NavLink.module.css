@@ -1,6 +1,5 @@
 .container {
   color: white;
-
 }
 
 a {
@@ -9,4 +8,10 @@ a {
   color: white;
   padding-right: 20px;
   letter-spacing: 5px;
+}
+
+a:hover {
+  text-shadow: 100px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
 }

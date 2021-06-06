@@ -3,16 +3,14 @@ import React from 'react';
 import styles from "./Card.module.css";
 
 export default class Card extends React.Component {
-  constructor(){
-    super()
-  }
+
   render() {
     const { image, url, title, desc } = this.props;
     return(
       <div id={styles.container}>
         <div className={"row"} id={styles.row}>
               <div className="card" >
-                <div className="card-image" id={styles.cartTitle}>
+                <div className="card-image" id={styles.cardTitle}>
                   <img src={image} alt="Projeto" id={styles.row}/>
                   <span classNames="card-title" >{title}</span>
                 </div>
