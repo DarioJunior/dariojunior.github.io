@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fafdc35.chunk.css",
-    "main.js": "/static/js/main.20e5f90d.chunk.js",
-    "main.js.map": "/static/js/main.20e5f90d.chunk.js.map",
+    "main.css": "/static/css/main.459c6715.chunk.css",
+    "main.js": "/static/js/main.be2f189a.chunk.js",
+    "main.js.map": "/static/js/main.be2f189a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ac7f3d24.js",
     "runtime-main.js.map": "/static/js/runtime-main.ac7f3d24.js.map",
     "static/js/2.a2a76898.chunk.js": "/static/js/2.a2a76898.chunk.js",
     "static/js/2.a2a76898.chunk.js.map": "/static/js/2.a2a76898.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0fafdc35.chunk.css.map": "/static/css/main.0fafdc35.chunk.css.map",
+    "static/css/main.459c6715.chunk.css.map": "/static/css/main.459c6715.chunk.css.map",
     "static/js/2.a2a76898.chunk.js.LICENSE.txt": "/static/js/2.a2a76898.chunk.js.LICENSE.txt",
     "static/media/Dev_Finance_App_Gif.e8b296a9.gif": "/static/media/Dev_Finance_App_Gif.e8b296a9.gif",
+    "static/media/GIF_TRIVIA.8c05eb43.gif": "/static/media/GIF_TRIVIA.8c05eb43.gif",
     "static/media/Podcastr_App_Gif2.79d9a054.gif": "/static/media/Podcastr_App_Gif2.79d9a054.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.ac7f3d24.js",
     "static/js/2.a2a76898.chunk.js",
-    "static/css/main.0fafdc35.chunk.css",
-    "static/js/main.20e5f90d.chunk.js"
+    "static/css/main.459c6715.chunk.css",
+    "static/js/main.be2f189a.chunk.js"
   ]
 }
