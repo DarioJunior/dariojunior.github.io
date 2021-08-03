@@ -22,7 +22,7 @@ export default class Slider extends React.Component {
             image={TriviaImage}
             url={"https://github.com/DarioJunior/sd-011-project-trivia-react-redux/tree/main-group-20"}
             title="Trivia Projects"
-            desc={"Projeto realizado em grupo, utilizando metodologias ágeis como Scrum e Kanban para gerenciamento, as tecnologias utilizadas foram HTML, CSS, React, Redux."}
+            desc={"Projeto realizado em grupo, um aplicativo de questões chamado Trivia que faz requisições para uma API de questões, desenvolvido utilizando metodologias ágeis como Scrum e Kanban para gerenciamento de tarefas, e as tecnologias front-end utilizadas foram HTML, CSS, React e Redux para gerenciar estados."}
           />
         </div>
         <div className={"carousel-item"} id={styles.item1} >
