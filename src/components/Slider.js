@@ -4,7 +4,7 @@ import Card from './Card';
 
 import DevFinanceImage from './Dev_Finance_App_Gif.gif';
 import PodcastrImage from './Podcastr_App_Gif2.gif'
-
+import TriviaImage from './GIF_TRIVIA.gif';
 
 export default class Slider extends React.Component {
   componentDidMount() {
@@ -35,10 +35,10 @@ export default class Slider extends React.Component {
         </div>
         <div className={"carousel-item"} id={styles.item1} >
           <Card
-            image={"Projeto 3"}
-            url={"#"}
-            title=""
-            desc={""}
+            image={TriviaImage}
+            url={"https://github.com/DarioJunior/sd-011-project-trivia-react-redux/tree/main-group-20"}
+            title="Trivia Projects"
+            desc={"Projeto realizado em grupo, utilizando metodologias ágeis como Scrum e Kanban para gerenciamento, as tecnologias utilizadas foram HTML, CSS, React, Redux."}
           />
         </div>
       </div>
