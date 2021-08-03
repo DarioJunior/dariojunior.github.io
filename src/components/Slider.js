@@ -18,6 +18,14 @@ export default class Slider extends React.Component {
     return (
       <div className="carousel" id={styles.Carousel}>
         <div className={"carousel-item"} id={styles.item1} >
+          <Card
+            image={TriviaImage}
+            url={"https://github.com/DarioJunior/sd-011-project-trivia-react-redux/tree/main-group-20"}
+            title="Trivia Projects"
+            desc={"Projeto realizado em grupo, utilizando metodologias ágeis como Scrum e Kanban para gerenciamento, as tecnologias utilizadas foram HTML, CSS, React, Redux."}
+          />
+        </div>
+        <div className={"carousel-item"} id={styles.item1} >
           <Card 
             image={PodcastrImage}
             url={"https://github.com/DarioJunior/nlw-5-podcastr"}
@@ -31,14 +39,6 @@ export default class Slider extends React.Component {
             url={"https://github.com/DarioJunior/dev-finance-app"} 
             title="Dev Finance"
             desc={"Projeto realizado em conjunto, durante a Maratona Discover, utilizando HTML, CSS e Javascript Vanilla"}
-          />
-        </div>
-        <div className={"carousel-item"} id={styles.item1} >
-          <Card
-            image={TriviaImage}
-            url={"https://github.com/DarioJunior/sd-011-project-trivia-react-redux/tree/main-group-20"}
-            title="Trivia Projects"
-            desc={"Projeto realizado em grupo, utilizando metodologias ágeis como Scrum e Kanban para gerenciamento, as tecnologias utilizadas foram HTML, CSS, React, Redux."}
           />
         </div>
       </div>
