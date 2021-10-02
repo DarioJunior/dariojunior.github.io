@@ -1,8 +1,8 @@
 {
-  "homepage": "http://dariojunior.github.io/portifolio",
   "name": "portifolio",
+  "homepage": "http://dariojunior.github.io/portifolio",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.tsx",
   "author": "Dário Junior <dario.junior.rs@gmail.com>",
   "license": "MIT",
   "scripts": {
