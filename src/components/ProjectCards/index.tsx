@@ -27,7 +27,7 @@ export function ProjectCards({ projectData }: ProjectCardsProps) {
         { description }
       </p>
      <a href={ url } target="_blank">
-       Link do repositório.
+       Acesse.
      </a>
     </Container>
   )
