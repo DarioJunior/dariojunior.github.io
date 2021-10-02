@@ -4,6 +4,8 @@ import instagramImg from '../../assets/instagram-icon.png';
 import githubImg from '../../assets/github-icon.png';
 import linkedinImg from '../../assets/linkedin-icon.png';
 import whatsappImg from '../../assets/whatsapp-icon.png';
+import emailImg from '../../assets/email-icon.png';
+
 export function Profile() {
   return(
     <Container>
@@ -57,6 +59,15 @@ export function Profile() {
         >
           <img 
             src={ whatsappImg }
+            width="48px" height="48px"
+          />
+        </a>
+        <a
+          href="mailto:dario.junior.rs@gmail.com"
+          target="_blank"
+        >
+          <img 
+            src={ emailImg }
             width="48px" height="48px"
           />
         </a>

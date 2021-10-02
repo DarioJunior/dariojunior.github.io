@@ -35,4 +35,19 @@ export const Container = styled.div`
   h4 {
     display: inline;
   }
+
+  a { 
+    line-height: 40px;
+    font-size: 1.1rem;
+
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+
+    transition: font-size 0.3s;
+    &:hover {
+      font-size: 1.3rem;
+    }
+  }
+
 `;

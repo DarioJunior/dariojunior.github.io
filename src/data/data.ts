@@ -1,9 +1,10 @@
 export const Projects = [
   {
     type: 'PROJECT',
-    name: 'Teste de um repositório',
-    tecnologies: ['HTML', 'CSS', 'Javascript', 'React', 'Jest', 'Mocha', 'Chai'],
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elementum, sed diam euismod tempor incididunt ut labore et dolore magna aliquyam erat volutpat. Ut enim ad minim veniam, ea commodo consequ'
+    name: 'App Palmirinha',
+    tecnologies: ['HTML', 'CSS', 'Javascript', 'React', 'Redux', 'ContextAPI'],
+    description: 'Um app de receitas (feito pensado para mobile) onde o usuário pode interagir e aplicar diferentes tipos de buscas e filtros.',
+    url: 'https://dariojunior.github.io/appalmirinha/'
   },
   {
     type: 'PROJECT',

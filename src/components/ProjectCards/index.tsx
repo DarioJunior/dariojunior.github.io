@@ -6,11 +6,12 @@ type ProjectCardsProps = {
     name: string;
     tecnologies: Array<string>;
     description: string;
+    url: string;
   }
 }
 
 export function ProjectCards({ projectData }: ProjectCardsProps) {
-  const { type, name, tecnologies, description } = projectData;
+  const { type, name, tecnologies, description, url } = projectData;
   return(
     <Container>
       <h5>
@@ -25,6 +26,9 @@ export function ProjectCards({ projectData }: ProjectCardsProps) {
       <p>
         { description }
       </p>
+     <a href={ url } target="_blank">
+       Link do repositório.
+     </a>
     </Container>
   )
 }
