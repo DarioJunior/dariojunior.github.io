@@ -8,4 +8,9 @@ export const Container = styled.main`
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;

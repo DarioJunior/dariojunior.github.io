@@ -22,7 +22,6 @@ export function Profile() {
         <p className="abstract">
           &nbsp; Estudande de Análise e Desenvolvimentos de Sistemas pelo SENAC e Desenvolvimento Web Full Stack na Trybe, descobri na tecnologia que é possível ajudar e contribuir com a sociedade muito mais do que pensamos, e desde que conheci esse mundo todo dia aprendo algo novo, evoluindo, aprendendo e ensinando, acredito que essa seja a missão do ser humano, colaborar.
         </p>
-      </div>
       <div className="icon-container">
         <a
           href="https://www.instagram.com/dariojunior_"
@@ -71,6 +70,7 @@ export function Profile() {
             width="48px" height="48px"
           />
         </a>
+      </div>
       </div>
     </Container>
   )

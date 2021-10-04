@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 550px;
-  height: 250px;
+  width: 80%;
+  height: 30%;
+  cursor: pointer;
   /* background-color: #746C70; */
   background-color: #3b444b;
-
   border-radius: 25px;
+
   margin: 10px auto;
   padding: 30px 30px;
-
-  cursor: pointer;
+  
+  /* overflow: auto; */
   &:hover {
     transition: 0.5s;
     transform: scale(1.1);
@@ -23,13 +24,13 @@ export const Container = styled.div`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     padding-bottom: 10px;
   }
 
   h2, h4, p {
     line-height: 30px;
-    color: white
+    color: white;
+    text-align: justify;
   }
 
   h4 {
@@ -50,4 +51,8 @@ export const Container = styled.div`
     }
   }
 
+  @media screen and (max-width: 1024px) {
+    width: 80%;
+    height: 32%;
+  }
 `;

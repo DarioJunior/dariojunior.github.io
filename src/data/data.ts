@@ -10,13 +10,13 @@ export const Projects = [
     type: 'PROJECT',
     name: 'Teste de um repositório 2',
     tecnologies: ['MongoDB', 'MySQL', 'NodeJS'],
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elementum, sed diam euismod tempor incididunt ut labore et dolore magna aliquyam erat volutpat. Ut enim ad minim veniam, ea commodo consequ'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elementum, sed diam volutpat. Ut enim ad minim veniam, ea commodo consequ'
   },
   {
     type: 'PROJECT',
     name: 'Teste de um repositório 3',
     tecnologies: ['Python', 'Django'],
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elementum, sed diam euismod tempor incididunt ut labore et dolore magna aliquyam erat volutpat. Ut enim ad minim veniam, ea commodo consequ'
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elementum, sed diam euismod tempor'
   },
 ];
 

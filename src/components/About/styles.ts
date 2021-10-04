@@ -13,6 +13,10 @@ export const Container = styled.section`
     transition: 0.5s;
     filter: brightness(0.8);
   }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const ProjectCardContainer = styled.div`
@@ -23,7 +27,5 @@ export const TecnologiesCardContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
   margin-top: 30px;
-
 `;

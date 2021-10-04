@@ -5,14 +5,14 @@ export const Container = styled.div`
   height: 200px;
   background-color: white;
   border-radius: 25px;
-  margin: 40px auto;
+  margin: 8% auto;
   padding: 30px 30px;
   cursor: pointer;
   display: flex;
 
   &:hover {
     transition: 0.5s;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     filter: brightness(1.2);
   }
 
